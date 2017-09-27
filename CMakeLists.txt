@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 2.8.11 FATAL_ERROR)
 
 project(photobundle CXX)
 
+set(CMAKE_BUILD_TYPE "release")
+
+
 set(BASE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
@@ -64,7 +67,7 @@ endif()
 set(Boost_USE_MULTITHREAD ON)
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_STATIC_RUNTIME ON)
-find_package(Boost 1.59.0 REQUIRED COMPONENTS filesystem system program_options)
+find_package(Boost REQUIRED COMPONENTS filesystem system program_options)
 add_definitions(${Boost_LIB_DIAGNOSTIC_DEFINITIONS})
 add_definitions(-DWITH_BOOST)
 add_definitions(-DWITH_SIMD)
