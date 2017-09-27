@@ -29,18 +29,47 @@ sequences = [
     ];
 
 cfgs = [
-    'kitti_stereo_00.cfg', \
-    'kitti_stereo_01.cfg', \
-    'kitti_stereo_02.cfg', \
-    'kitti_stereo_03.cfg', \
-    'kitti_stereo_04.cfg', \
-    'kitti_stereo_05.cfg', \
-    'kitti_stereo_06.cfg', \
-    'kitti_stereo_07.cfg', \
-    'kitti_stereo_08.cfg', \
-    'kitti_stereo_09.cfg', \
-    'kitti_stereo_10.cfg', \
+    'poor/kitti_stereo_poor_00.cfg', \
+    'poor/kitti_stereo_poor_01.cfg', \
+    'poor/kitti_stereo_poor_02.cfg', \
+    'poor/kitti_stereo_poor_03.cfg', \
+    'poor/kitti_stereo_poor_04.cfg', \
+    'poor/kitti_stereo_poor_05.cfg', \
+    'poor/kitti_stereo_poor_06.cfg', \
+    'poor/kitti_stereo_poor_07.cfg', \
+    'poor/kitti_stereo_poor_08.cfg', \
+    'poor/kitti_stereo_poor_09.cfg', \
+    'poor/kitti_stereo_poor_10.cfg', \
     ];
+
+# cfgs = [
+#     'orbslam2/kitti_stereo_orbslam2_00.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_01.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_02.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_03.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_04.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_05.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_06.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_07.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_08.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_09.cfg', \
+#     'orbslam2/kitti_stereo_orbslam2_10.cfg', \
+#     ];
+
+cfgs = [
+    'perfect/kitti_stereo_perfect_00.cfg', \
+    'perfect/kitti_stereo_perfect_01.cfg', \
+    'perfect/kitti_stereo_perfect_02.cfg', \
+    'perfect/kitti_stereo_perfect_03.cfg', \
+    'perfect/kitti_stereo_perfect_04.cfg', \
+    'perfect/kitti_stereo_perfect_05.cfg', \
+    'perfect/kitti_stereo_perfect_06.cfg', \
+    'perfect/kitti_stereo_perfect_07.cfg', \
+    'perfect/kitti_stereo_perfect_08.cfg', \
+    'perfect/kitti_stereo_perfect_09.cfg', \
+    'perfect/kitti_stereo_perfect_10.cfg', \
+    ];
+
 
 runsPerSequence = 1;
 
