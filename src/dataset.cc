@@ -208,8 +208,10 @@ bool KittiDataset::init(const utils::ConfigFile& cf)
     auto root_dir = fs::expand_tilde(cf.get<std::string>("DataSetRootDirectory"));
     auto sequence = cf.get<int>("SequenceNumber");
 
-    auto left_fmt = Format("sequences/%02d/image_0/%s.png", sequence, "%06d");
-    auto right_fmt = Format("sequences/%02d/image_1/%s.png", sequence, "%06d");
+//    std::cout <<"!!!! " << sequence << " !!!! " << std::endl;
+
+    auto left_fmt = Format("/%02d/image_0/%s.png", sequence, "%06d");
+    auto right_fmt = Format("/%02d/image_1/%s.png", sequence, "%06d");
     auto frame_start = cf.get<int>("FirstFrameNumber", 0);
 
     this->_left_filenames = make_unique<FileLoader>(root_dir, left_fmt, frame_start);
@@ -219,7 +221,7 @@ bool KittiDataset::init(const utils::ConfigFile& cf)
     THROW_ERROR_IF( nullptr == frame, "failed to load frame" );
     this->_image_size = Dataset::GetImageSize(frame.get());
 
-    auto calib_fn = Format("%s/sequences/%02d/calib.txt", root_dir.c_str(), sequence);
+    auto calib_fn = Format("%s/%02d/calib.txt", root_dir.c_str(), sequence);
     THROW_ERROR_IF(!fs::exists(calib_fn), "calibration file does not exist");
     return loadCalibration(calib_fn);
 
