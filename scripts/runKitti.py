@@ -15,17 +15,17 @@ else:
 
 
 sequences = [
-    '00', \
-    '01', \
-    '02', \
-    '03', \
-    '04', \
-    '05', \
-    '06', \
-    '07', \
-    '08', \
+    # '00', \
+    # '01', \
+    # '02', \
+    # '03', \
+    # '04', \
+    # '05', \
+    # '06', \
+    # '07', \
+    # '08', \
     '09', \
-    '10', \
+    # '10', \
     ];
 
 # cfgs = [
@@ -57,17 +57,17 @@ sequences = [
 #     ];
 
 cfgs = [
-    'perfect/kitti_stereo_perfect_00.cfg', \
-    'perfect/kitti_stereo_perfect_01.cfg', \
-    'perfect/kitti_stereo_perfect_02.cfg', \
-    'perfect/kitti_stereo_perfect_03.cfg', \
-    'perfect/kitti_stereo_perfect_04.cfg', \
-    'perfect/kitti_stereo_perfect_05.cfg', \
-    'perfect/kitti_stereo_perfect_06.cfg', \
-    'perfect/kitti_stereo_perfect_07.cfg', \
-    'perfect/kitti_stereo_perfect_08.cfg', \
+    # 'perfect/kitti_stereo_perfect_00.cfg', \
+    # 'perfect/kitti_stereo_perfect_01.cfg', \
+    # 'perfect/kitti_stereo_perfect_02.cfg', \
+    # 'perfect/kitti_stereo_perfect_03.cfg', \
+    # 'perfect/kitti_stereo_perfect_04.cfg', \
+    # 'perfect/kitti_stereo_perfect_05.cfg', \
+    # 'perfect/kitti_stereo_perfect_06.cfg', \
+    # 'perfect/kitti_stereo_perfect_07.cfg', \
+    # 'perfect/kitti_stereo_perfect_08.cfg', \
     'perfect/kitti_stereo_perfect_09.cfg', \
-    'perfect/kitti_stereo_perfect_10.cfg', \
+    # 'perfect/kitti_stereo_perfect_10.cfg', \
     ];
 
 
