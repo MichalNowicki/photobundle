@@ -28,19 +28,19 @@ sequences = [
     '10', \
     ];
 
-cfgs = [
-    'poor/kitti_stereo_poor_00.cfg', \
-    'poor/kitti_stereo_poor_01.cfg', \
-    'poor/kitti_stereo_poor_02.cfg', \
-    'poor/kitti_stereo_poor_03.cfg', \
-    'poor/kitti_stereo_poor_04.cfg', \
-    'poor/kitti_stereo_poor_05.cfg', \
-    'poor/kitti_stereo_poor_06.cfg', \
-    'poor/kitti_stereo_poor_07.cfg', \
-    'poor/kitti_stereo_poor_08.cfg', \
-    'poor/kitti_stereo_poor_09.cfg', \
-    'poor/kitti_stereo_poor_10.cfg', \
-    ];
+# cfgs = [
+#     'poor/kitti_stereo_poor_00.cfg', \
+#     'poor/kitti_stereo_poor_01.cfg', \
+#     'poor/kitti_stereo_poor_02.cfg', \
+#     'poor/kitti_stereo_poor_03.cfg', \
+#     'poor/kitti_stereo_poor_04.cfg', \
+#     'poor/kitti_stereo_poor_05.cfg', \
+#     'poor/kitti_stereo_poor_06.cfg', \
+#     'poor/kitti_stereo_poor_07.cfg', \
+#     'poor/kitti_stereo_poor_08.cfg', \
+#     'poor/kitti_stereo_poor_09.cfg', \
+#     'poor/kitti_stereo_poor_10.cfg', \
+#     ];
 
 # cfgs = [
 #     'orbslam2/kitti_stereo_orbslam2_00.cfg', \
